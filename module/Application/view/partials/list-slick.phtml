@@ -1,0 +1,40 @@
+<?php
+
+/** @var Entity\StLanguage $data */
+
+use Entity\StLanguage;
+
+if (count($data) < 1)
+    return '';
+
+?>
+<?php foreach ($data as $key => $value): ?>
+    <div class="container overflow-hidden my-3 my-md-5">
+
+        <div class="row">
+            <div class="col-12 title-row">
+                <p class="title-1"><?= $key ?></p>
+                <a href="#" class="title-2"> Xem tất cả <i class="fa fa-chevron-right"></i></a>
+            </div>
+        </div>
+        <div class="overflow-hidden learn-row center slider">
+            <?php foreach ($value as $k => $v): ?>
+                <?= $this->partial('partials/slick-carousel', [
+                    'data' => [
+                        [
+                            'href'       => $v['href'],
+                            'classCard'  => $v['classCard'],
+                            'img'        => $v['img'],
+                            'classImg'   => $v['classImg'],
+                            'title'      => $v['title'],
+                            'classTitle' => $v['classTitle'],
+                            'text'       => $v['text'],
+                            'classText'  => $v['classText'],
+                        ],
+
+                    ],
+                ]) ?>
+            <?php endforeach; ?>
+        </div>
+    </div>
+<?php endforeach; ?>

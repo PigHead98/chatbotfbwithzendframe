@@ -1,0 +1,22 @@
+<?php
+
+/** @var Entity\StLanguage $data */
+
+use Entity\StLanguage;
+
+if (count($data) < 1)
+    return '';
+
+?>
+<?php foreach ($data as $key => $value): ?>
+    <div class="">
+        <a href="<?=$value['href']?>">
+            <div class="<?= $value['classCard'] ?>">
+<!--                <img class="learn-img" src="/img/learn-korea.png" alt=""/>-->
+                <img class="<?= $value['classImg'] ?>" src="<?= $value['img'] ?>" alt=""/>
+                <p class="<?= $value['classTitle'] ?>"><?= $value['title'] ?></p>
+                <p class="<?= $value['classText'] ?>"><?= $value['text'] ?></p>
+            </div>
+        </a>
+    </div>
+<?php endforeach; ?>

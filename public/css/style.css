@@ -1,0 +1,44 @@
+@media (max-width: 1199.98px) {
+    .menu-layout {
+        display: none !important;
+    }
+
+    .menu-layout-media {
+        display: flex;
+    }
+
+    .grid-menu {
+        display: grid !important;
+    }
+
+    .bg-cover {
+        margin-top: 33px !important;
+        padding-top: 1px !important;
+        padding-bottom: 5px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-text {
+        transform: translate(0%, 10px) !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 1099px) {
+    .w-res {
+        width: 40%;
+        margin: auto;
+    }
+
+    .consult {
+        margin-left: 60%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .w-50-100{
+        width: 50%!important;
+    }
+}

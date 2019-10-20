@@ -1,0 +1,25 @@
+{
+  "name": "greenacademy",
+  "version": "1.0.0",
+  "description": "This is a skeleton application using the Zend Framework MVC layer and module\r systems. This application is meant to be used as a starting place for those\r looking to get their feet wet with Zend Framework.",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lazyload": "^2.0.0-rc.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nguyenthanhhungbt1905/greenacademy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nguyenthanhhungbt1905/greenacademy/issues"
+  },
+  "homepage": "https://gitlab.com/nguyenthanhhungbt1905/greenacademy#readme"
+}

@@ -1,0 +1,7 @@
+<?php return unserialize('a:2:{s:8:"lifetime";i:1566561009;s:4:"data";a:5:{s:12:"conversation";O:31:"Application\\Chatbot\\SaveContact":6:{s:12:"' . "\0" . '*' . "\0" . 'firstname";s:1:"h";s:8:"' . "\0" . '*' . "\0" . 'email";s:12:"hghghg@g.com";s:8:"' . "\0" . '*' . "\0" . 'phone";N;s:9:"' . "\0" . '*' . "\0" . 'idUser";s:16:"2491441967560806";s:8:"' . "\0" . '*' . "\0" . 'token";N;s:12:"' . "\0" . '*' . "\0" . 'cacheTime";N;}s:8:"question";s:30:"s:22:"Nhập sdt của bạn";";s:20:"additionalParameters";s:6:"a:0:{}";s:4:"next";s:585:"C:32:"Opis\\Closure\\SerializableClosure":539:{a:5:{s:3:"use";a:0:{}s:8:"function";s:178:"function(\\BotMan\\BotMan\\Messages\\Incoming\\Answer $answer) {
+            // Save result
+            $this->phone = $answer->getText();
+
+
+            $this->save();
+        }";s:5:"scope";s:31:"Application\\Chatbot\\SaveContact";s:4:"this";O:31:"Application\\Chatbot\\SaveContact":6:{s:12:"' . "\0" . '*' . "\0" . 'firstname";s:1:"h";s:8:"' . "\0" . '*' . "\0" . 'email";s:12:"hghghg@g.com";s:8:"' . "\0" . '*' . "\0" . 'phone";N;s:9:"' . "\0" . '*' . "\0" . 'idUser";s:16:"2491441967560806";s:8:"' . "\0" . '*' . "\0" . 'token";N;s:12:"' . "\0" . '*' . "\0" . 'cacheTime";N;}s:4:"self";s:32:"000000006e9802b00000000060b2b7f1";}}";s:4:"time";s:21:"0.66293200 1566559209";}}');
