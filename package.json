@@ -4,7 +4,7 @@
   "description": "This is a skeleton application using the Zend Framework MVC layer and module\r systems. This application is meant to be used as a starting place for those\r looking to get their feet wet with Zend Framework.",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lazyload": "^2.0.0-rc.2",
     "slick-carousel": "^1.8.1"
   },
